@@ -1,4 +1,4 @@
-/*
+/*Exercises to manipulate the DOM : introduction
 */
 
 //This function takes as argument an integer "size",
