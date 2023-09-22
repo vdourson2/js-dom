@@ -22,7 +22,8 @@ let students =[
     "Layla", 
     "Alexandre Vdw", 
     "Alexandre V", 
-    "Bastien"];
+    "Bastien",
+    "Okly"];
 
 //This function takes as argument an integer "size",
 // and generate a random integer between 0 and "size".
