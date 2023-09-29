@@ -6,14 +6,7 @@ document.body.appendChild(place);
 let word = Array.from("Keller");
 let i = 0;
 
-function type(wordArray) {
-    if (i < wordArray.length) {
-        place.textContent += wordArray[i++];
-    } 
-    else {
-        clearInterval(typewriter);
-    }
-}
-
-let typewriter = setInterval(() => type(word),1000);
+let typewriter = setInterval(() => 
+    i < word.length ? place.textContent += word[i++] : clearInterval(typewriter)
+,1000);
 
