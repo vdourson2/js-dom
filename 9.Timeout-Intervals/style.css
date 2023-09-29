@@ -17,4 +17,9 @@
 }
 .game__circle .mole {
   background-color: red;
+}
+
+.wrapScore {
+  text-align: center;
+  font-size: 32px;
 }/*# sourceMappingURL=style.css.map */
