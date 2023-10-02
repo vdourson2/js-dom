@@ -11,3 +11,14 @@ stPetersbourg.textContent = "Saint-Petersbourg : " +  now.toLocaleString("fr-FR"
 let bruxelles = document.querySelector('#bruxelles');
 bruxelles.textContent = "Bruxelles : " +  now.toLocaleString("fr-FR");
  
+//Using timestamps, find how many days have passed since the date of your birth.
+//Write a function to find how many days have passed since any point in time (after 1970).
+
+//Function that takes a date as argument (after 1970) 
+//and return how many days have passed since this date
+function giveDaysFrom(date){
+    return Math.round(((new Date()).getTime() - date.getTime())/(1000*60*60*24));
+}
+
+let birth = new Date('1977-08-11');
+document.querySelector('.days').textContent = "I am " + giveDaysFrom(birth) + " days old";
