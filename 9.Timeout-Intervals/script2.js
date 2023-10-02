@@ -22,7 +22,9 @@ let play = setInterval(() => {
 
     //Color the previous red div in white to reset the screen:
     circles[previousPlaceNb].style.backgroundColor = "white";
-    if (counter++ == 20) { //Increase counter and end game after 50 times of the mole appearance :
+
+    if (counter++ == 20) { 
+        //Increase counter and end game after 50 times of the mole appearance :
         clearInterval(play);
     }
     else {
@@ -34,9 +36,7 @@ let play = setInterval(() => {
         }
         previousPlaceNb = placeNb;
         circles[placeNb].style.backgroundColor = "red";
-    }
-
-    
+    } 
 }, 800);
 
 

@@ -9,6 +9,7 @@ Becode exercise 14 : DOM exploration and Events :
 7. Dark-kitchen (see repository "dark-kitchen" - group project)
 8. Forms (see repository "forms")
 9. Timeouts and intervals
+10 . The Date object
 
 ## Briefing
 [Instructions](https://github.com/becodeorg/CRL-KELLER-6/tree/main/1.TRAIL/2.The-Hill/1.DOM) for the exercise.
@@ -20,7 +21,7 @@ HTML5, CSS3, JavaScript
 Virginie Dourson
 
 ## Date
-09/2023
+09/2023 - 10/2023
 
 ## Progression
 End of work
