@@ -21,4 +21,18 @@ function giveDaysFrom(date){
 }
 
 let birth = new Date('1977-08-11');
-document.querySelector('.days').textContent = "I am " + giveDaysFrom(birth) + " days old";
+document.querySelector('#days').textContent = "I am " + giveDaysFrom(birth) + " days old";
+
+//Using timestamps, find the exact time and date we will be in 80000 hours.
+//Write a function to display the time and date for any amount of hours given in the future. 
+//Create a number input for the hours and listen for keyup events, 
+//dynamically display the date in the number of hours given by the input.
+function futurDate() {
+    document.querySelector("#hours").addEventListener('keyup', (e) =>
+    document.querySelector("#futurDate").textContent = new Date((new Date()).getTime() + e.target.value*60*60*1000)
+    )
+}
+    
+futurDate();
+
+
