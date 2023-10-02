@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.wrapAll {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapCalendar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 50px;
+  text-align: center;
+}
+.wrapCalendar__weekday {
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 40px;
+  font-weight: 600;
+  background-color: #b03737;
+  border-radius: 50px 50px 0 0;
+  color: white;
+  border-left: 5px solid #832a2a;
+  border-top: 5px solid #832a2a;
+  border-right: 5px solid #832a2a;
+}
+.wrapCalendar__day {
+  font-size: 90px;
+  font-weight: 900;
+  padding: 10px 0;
+  color: grey;
+  border-left: 5px solid lightgrey;
+  border-right: 5px solid lightgrey;
+}
+.wrapCalendar__month {
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 800;
+  padding: 10px 0;
+  color: grey;
+  border-left: 5px solid lightgrey;
+  border-right: 5px solid lightgrey;
+}
+.wrapCalendar__year {
+  padding: 10px 0;
+  font-size: 40px;
+  font-weight: 600;
+  background-color: #b03737;
+  border-radius: 0 0 50px 50px;
+  color: white;
+  border-left: 5px solid #832a2a;
+  border-bottom: 5px solid #832a2a;
+  border-right: 5px solid #832a2a;
+}
+
+.hour {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 120px;
+  font-weight: 900;
+  color: rgb(84, 82, 82);
+}
+.hour__seconds {
+  font-size: 80px;
+}/*# sourceMappingURL=style.css.map */
