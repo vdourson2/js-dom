@@ -10,6 +10,8 @@ Becode exercise 14 : DOM exploration and Events :
 8. Forms (see repository "forms")
 9. Timeouts and intervals
 10. The Date object
+11. Project Planner (group project)
+12. Asynchrone
 
 ## Briefing
 [Instructions](https://github.com/becodeorg/CRL-KELLER-6/tree/main/1.TRAIL/2.The-Hill/1.DOM) for the exercise.
